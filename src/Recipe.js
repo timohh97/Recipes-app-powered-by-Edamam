@@ -12,7 +12,7 @@ const Recipe = ({ title, calories, image, source,ingredients }) => {
             </ol>
             <p>{calories} Calories</p>
             <img src={image} />
-                <a style={{float:"right", "font-size":"xx-large"}} href={source}>Source</a>
+                <a id="source" style={{float:"right", "font-size":"xx-large"}} href={source}>Source</a>
         </div>
     );
 }
